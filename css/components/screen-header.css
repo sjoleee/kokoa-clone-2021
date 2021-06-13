@@ -14,3 +14,14 @@
     margin-left: 20px;
     font-size: 15px;
 }
+
+.screen-header__dot {
+    background-color: tomato;
+    color: tomato;
+    display: flex;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: 46px;
+}
