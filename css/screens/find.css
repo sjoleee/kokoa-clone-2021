@@ -1,0 +1,13 @@
+.find-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.find-icons__icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.find-icons__icon i {}
