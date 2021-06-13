@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 25px;
 }
 
 .find-icons__icon {
@@ -10,4 +11,19 @@
     flex-direction: column;
 }
 
-.find-icons__icon i {}
+.find-icons__icon i {
+    margin: 20px 0px;
+}
+
+.recommended-friends {
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    padding-top: 25px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.recommended-friends__subtitle {
+    display: inherit;
+    text-align: center;
+    padding: 90px 0px;
+}
