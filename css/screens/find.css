@@ -52,11 +52,13 @@
 .open-post {
     display: flex;
     border-bottom: var(--main-border);
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .open-post__title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 8px;
 }
@@ -93,4 +95,30 @@
     background-color: rgba(0, 0, 0, 0.5);
     ;
     margin: 0px 5px;
+}
+
+.open-post__photo {
+    position: relative;
+}
+
+.open-post__photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+}
+
+.open-post__like-count {
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 7px;
+    right: 7px
+}
+
+.open-post__like-count span {
+    margin-left: 3px;
 }
