@@ -37,7 +37,7 @@
 
 .user-component__subtitle {
     margin-top: 7px;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.3);
     font-size: 15px;
 }
 
@@ -51,4 +51,8 @@
 .user-component__time {
     display: block;
     margin-bottom: 5px;
+}
+
+.fa-exclamation-circle {
+    color: rgba(255, 0, 0, 0.7);
 }
