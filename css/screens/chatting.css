@@ -39,6 +39,25 @@
 .message-row {
     width: 100%;
     display: flex;
+    margin-bottom: 25px;
+}
+
+.message-row--own {
+    justify-content: flex-end;
+}
+
+.message-row--own .message__bubble {
+    background-color: var(--yellow);
+    border-top-right-radius: 0px;
+    border-top-left-radius: 16px;
+}
+
+.message-row--own .message__time {
+    margin-right: 6px;
+}
+
+.message-row--own .message__info {
+    flex-direction: row-reverse;
 }
 
 .message-row img {
