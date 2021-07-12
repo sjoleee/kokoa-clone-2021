@@ -95,6 +95,9 @@
 }
 
 .reply {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
     background-color: white;
     justify-content: space-between;
