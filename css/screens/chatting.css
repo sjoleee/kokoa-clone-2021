@@ -15,12 +15,24 @@
     background-color: #abc1d1;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
 .main-chatting {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     z-index: 0;
+    animation: fadeIn 0.3s linear;
 }
 
 .chatting__timestamp {
