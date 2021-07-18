@@ -10,10 +10,6 @@
     z-index: 999;
 }
 
-.chatting-status-bar {
-    background-color: #abc1d1;
-}
-
 .status-bar__column {
     width: 33%;
 }
